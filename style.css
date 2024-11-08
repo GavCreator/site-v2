@@ -94,16 +94,31 @@ body {
     margin: 1%;
 }
 
+.sub3container {
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--NM4);
+    padding: 2% 1%;
+    margin: 1%;
+}
+
 .title {
     font-weight: 500;
     font-size: 180%;
-
+    margin: 1%;
 }
 
 .title2 {
     font-weight: 600;
     font-size: 150%;
+    margin: 1%;
+}
 
+.title3 {
+    font-weight: 400;
+    font-size: 130%;
+    margin: 1%;
 }
 
 .title-bmc {
@@ -114,4 +129,32 @@ body {
 
 .boldtxt {
     font-weight: 700;
+}
+
+.addLMargin {
+    margin-left: 2%;
+}
+
+.makeBlock {
+    display: block;
+}
+
+.noBgC {
+    background-color: transparent;
+    border: 0px;
+}
+
+.rBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.rBtn-X {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--NM5);
+    padding: 1% 2%;
+    color: white;
+    font-weight: 800;
 }

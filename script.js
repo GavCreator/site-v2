@@ -13,5 +13,25 @@ document.addEventListener("DOMContentLoaded", (event) => {
     loadScript('res/app.js');
 
     // Rest of script
-    console.log("Website Has Been Loaded");
+    function getId(id) {
+        return document.getElementById(id);
+    }
+    
+    // OnClick Buttons Redirect
+    if (getId("toBenefits")) {
+        var rBenefits = getId("toBenefits");
+
+        rBenefits.addEventListener("click", function(){
+            window.location.href = 'benefits.html';
+        });
+    }
+    if (getId("toRules")) {
+        var rRules = getId("toRules");
+        rRules.addEventListener("click", function(){
+            window.location.href = 'rules.html';
+        });
+    }
+
+
+
 });
