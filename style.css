@@ -1,0 +1,72 @@
+/* Root is where im storing variables. This is for things like fonts, colors, etc. */
+/* Use the fonts by setting the value to var(--VARIABLE) */
+:root {
+    /* Night Mode Themed Colors */
+    --NM1: #1A1A1A;
+    --NM2: #242424;
+    --NM3: #2E2E2E;
+    --NM4: #383838;
+    --NM5: #444444;
+    --NM6: #5C5C5C;
+    --NM7: #787878;
+    --F-Onest: 'Onest';
+    --F-Rubik: 'Rubik';
+    --F-Ubuntu: 'Ubuntu';
+    --F-UbuntuTitlingBold: 'Ubuntu Titling Bold';
+    --F-OnelySans: 'OnelySans';
+}
+
+* {
+    user-select: none;
+    cursor: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--NM1);
+    color: white;
+}
+
+/* Containers */
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5%;
+}
+
+/* Navigation Menu */
+
+.menu {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 2.5%;
+    background-color: var(--NM2);
+    padding: 0.5%;
+}
+
+.menu i {
+    padding: 0.5%;
+    transition: 0.25s ease-in;
+}
+
+.menu i:hover {
+    color: #bb2222;
+}
+
+.menu .rightside {
+    margin-left: auto
+}
+
+/* Particles */
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
