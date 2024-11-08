@@ -41,9 +41,31 @@ document.addEventListener("DOMContentLoaded", (event) => {
         const rBenefits = getId("toBenefits");
         rFunc(rBenefits, "benefits.html");
     }
+    
     if (getId("toRules")) {
         const rRules = getId("toRules");
         rFunc(rRules, "rules.html");
+    }
+
+    if (getId("toMainDon")){
+        const rMainDon = getId("toMainDon");
+        rFunc(rMainDon, "https://gvnx.is-a-good.dev/streamdonation");
+    }
+
+    if (getId("toAltDon")){
+        const rAltDon = getId("toAltDon");
+        rFunc(rAltDon, "https://gvnx.is-a-good.dev/altdonation");
+    }
+
+    if (getId("toAmazonGift")){
+        const rAWL = getId("toAmazonGift");
+        rFunc(rAWL, "https://gvnx.is-a-good.dev/awl");
+
+    }
+
+    if (getId("toThroneGift")){
+        const rThrone = getId("toThroneGift");
+        rFunc(rThrone, "https://gvnx.is-a-good.dev/throne");
     }
 
     rFunc(rHome, "index.html");
@@ -51,6 +73,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     rFunc(rTTV, "https://gvnx.is-a-good.dev/twitch");
     rFunc(rDisc, "https://gvnx.is-a-good.dev/discord");
     rFunc(rPat, "https://gvnx.is-a-good.dev/patreon");
-    rFunc(rDon, "money.html");
+    rFunc(rDon, "donations.html");
     rFunc(rInfo, "more.html");
 });

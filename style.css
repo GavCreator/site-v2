@@ -155,3 +155,11 @@ body {
     color: white;
     font-weight: 800;
 }
+
+.rBtn2 {
+    display: block;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 1%;
+    width: 20%;
+}
