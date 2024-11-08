@@ -1,2 +1,2 @@
-# site-v2
-Redesign of site
+# Official V2 of GavCreators Website
+

@@ -1,10 +1,23 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-    // The content below loads the scripts to html files so that it isnt very cluttered
+    // Functions Here
+
     function loadScript(url) {
         const script = document.createElement('script');
         script.src = url;
         document.head.appendChild(script);
     }
+
+    function getId(id) {
+        return document.getElementById(id);
+    }
+
+    function rFunc(varhere, locationhere){
+        varhere.addEventListener("click", function(){
+            window.location.href = locationhere;
+        })
+    }
+    
+    // Load Scripts
 
     loadScript('https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.js');
     loadScript('https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js');
@@ -12,26 +25,32 @@ document.addEventListener("DOMContentLoaded", (event) => {
     loadScript('https://kit.fontawesome.com/5f8433758a.js');
     loadScript('res/app.js');
 
-    // Rest of script
-    function getId(id) {
-        return document.getElementById(id);
-    }
-    
-    // OnClick Buttons Redirect
-    if (getId("toBenefits")) {
-        var rBenefits = getId("toBenefits");
+    // Variables
 
-        rBenefits.addEventListener("click", function(){
-            window.location.href = 'benefits.html';
-        });
+    const rHome = getId("home");
+    const rYT = getId("youtube");
+    const rTTV = getId("twitch");
+    const rDisc = getId("discord");
+    const rPat = getId("patreon");
+    const rDon = getId("money");
+    const rInfo = getId("additional");
+
+    // OnClick Redirects
+
+    if (getId("toBenefits")) {
+        const rBenefits = getId("toBenefits");
+        rFunc(rBenefits, "benefits.html");
     }
     if (getId("toRules")) {
-        var rRules = getId("toRules");
-        rRules.addEventListener("click", function(){
-            window.location.href = 'rules.html';
-        });
+        const rRules = getId("toRules");
+        rFunc(rRules, "rules.html");
     }
 
-
-
+    rFunc(rHome, "index.html");
+    rFunc(rYT, "https://gvnx.is-a-good.dev/yt-main");
+    rFunc(rTTV, "https://gvnx.is-a-good.dev/twitch");
+    rFunc(rDisc, "https://gvnx.is-a-good.dev/discord");
+    rFunc(rPat, "https://gvnx.is-a-good.dev/patreon");
+    rFunc(rDon, "money.html");
+    rFunc(rInfo, "more.html");
 });

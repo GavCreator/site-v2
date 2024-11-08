@@ -1,7 +1,4 @@
-/* Root is where im storing variables. This is for things like fonts, colors, etc. */
-/* Use the fonts by setting the value to var(--VARIABLE) */
 :root {
-    /* Night Mode Themed Colors */
     --NM1: #1A1A1A;
     --NM2: #242424;
     --NM3: #2E2E2E;
