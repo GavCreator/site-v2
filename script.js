@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     loadScript('https://cdn.statically.io/gh/GsLibrary/Library/main/NewScript.js');
     loadScript('https://kit.fontawesome.com/5f8433758a.js');
     loadScript('res/app.js');
-    loadScript('res/particles.js');
 
     // Rest of script
     console.log("Website Has Been Loaded");
