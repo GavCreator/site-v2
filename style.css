@@ -190,3 +190,17 @@ body {
     color: white;
 
 }
+
+/* rules.html */
+
+.listedRules {
+    margin-top: 1%;
+}
+
+.listedRules::marker {
+    content: none;
+}
+
+.listedRules .badge {
+    padding-right: 1%;
+}
