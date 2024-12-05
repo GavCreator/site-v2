@@ -69,6 +69,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
         rFunc(rThrone, "https://gvnx.is-a-good.dev/throne");
     }
 
+    if (getId("shirt")){
+        const rMerch = getId("shirt");
+        rFunc(rMerch, "https://simplygav.myspreadshop.com");
+    }
+
     rFunc(rHome, "index.html");
     rFunc(rYT, "https://gvnx.is-a-good.dev/yt-main");
     rFunc(rTTV, "https://gvnx.is-a-good.dev/twitch");
