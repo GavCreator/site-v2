@@ -204,3 +204,13 @@ body {
 .listedRules .badge {
     padding-right: 1%;
 }
+
+/* rules.html */
+.iframecontainer {
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--NM2);
+    padding: 2% 1%;
+    margin: 1%;
+}
