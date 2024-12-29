@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     if (getId("toMainDon")){
         const rMainDon = getId("toMainDon");
-        rFunc(rMainDon, "https://gvnx.is-a-good.dev/streamdonation");
+        rFunc(rMainDon, "https://streamlabs.com/simplygav/tip");
     }
 
     if (getId("toAltDon")){
