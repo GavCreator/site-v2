@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     loadScript('https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js');
     loadScript('https://cdn.statically.io/gh/GsLibrary/Library/main/NewScript.js');
     loadScript('https://kit.fontawesome.com/5f8433758a.js');
-    loadScript('res/app.js');
+    loadScript('res/app2.js');
 
     // Variables
 
