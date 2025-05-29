@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     rFunc(rHome, "index.html");
     rFunc(rYT, "https://gvnx.is-a-good.dev/yt-main");
     rFunc(rTTV, "https://gvnx.is-a-good.dev/twitch");
-    rFunc(rDisc, "https://gvnx.is-a-good.dev/discord");
+    rFunc(rDisc, "https://discord.gg/qNVJeAyFPv");
     rFunc(rPat, "https://gvnx.is-a-good.dev/patreon");
     rFunc(rDon, "donations.html");
     rFunc(rInfo, "more.html");
