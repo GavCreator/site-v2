@@ -170,6 +170,13 @@ body {
     width: 20%;
 }
 
+.gmg-games {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
 /* Benefits.html */
 
 .listedBenefits {
