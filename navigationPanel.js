@@ -8,6 +8,7 @@ class NavPanel extends HTMLElement {
             <i class="fa-brands fa-discord" id="discord"></i>
             <i class="fa-brands fa-patreon" id="patreon"></i>
             <i class="fa-solid fa-shirt" id="shirt"></i>
+            <i><img src="https://images.greenmangaming.com/static/favicon.ico"></i>
             <i class="fa-solid fa-dollar-sign" id="money"></i>
             <!-- <i class="fas fa-info-circle rightside" id="additional"></i> -->
         </div>
