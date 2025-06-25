@@ -10,7 +10,7 @@ class NavPanel extends HTMLElement {
             <i class="fa-solid fa-shirt" id="shirt"></i>
             <i class="fa-solid fa-dollar-sign" id="money"></i>
             <i id="greenmangaming">
-                <img src="https://images.greenmangaming.com/static/favicon.ico" alt="GreenManGaming Icon">
+                <img src="res/gmg.ico" alt="gmg">
             </i>
             <!-- <i class="fas fa-info-circle rightside" id="additional"></i> -->
         </div>
