@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     loadScript('https://cdn.statically.io/gh/GsLibrary/Library/main/NewScript.js');
     loadScript('https://kit.fontawesome.com/5f8433758a.js');
     loadScript('res/app2.js');
+    loadScript('res/gmg.js');
 
     // Variables
 
@@ -35,6 +36,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const rDon = getId("money");
     const rInfo = getId("additional");
     const rMerch = getId("shirt");
+    const rGMG = getId("gmg");
 
     // OnClick Redirects
 
@@ -82,4 +84,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
     rFunc(rDon, "donations.html");
     rFunc(rInfo, "more.html");
     rFunc(rShirt, "https://simplygav.myspreadshop.com/");
+    rFunc(rGMG, "https://greenmangaming.sjv.io/xLRVNR");
 });
