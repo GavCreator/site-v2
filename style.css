@@ -177,6 +177,18 @@ body {
     flex-wrap: wrap;
 }
 
+.gmg-deals {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+}
+
+.link-img:hover {
+    cursor: crosshair;
+}
+
 /* Benefits.html */
 
 .listedBenefits {
