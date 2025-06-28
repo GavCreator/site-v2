@@ -36,7 +36,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const rDon = getId("money");
     const rInfo = getId("additional");
     const rMerch = getId("shirt");
-    const rGMG = getId("gmg");
+    // const rGMG = getId("gmg");
+    const rCollabs = getId("collabs");
 
     // OnClick Redirects
 
@@ -83,6 +84,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     rFunc(rPat, "https://gvnx.is-a-good.dev/patreon");
     rFunc(rDon, "donations.html");
     rFunc(rInfo, "more.html");
-    rFunc(rShirt, "https://simplygav.myspreadshop.com/");
-    rFunc(rGMG, "https://greenmangaming.sjv.io/xLRVNR");
+    rFunc(rMerch, "https://simplygav.myspreadshop.com/");
+    // rFunc(rGMG, "https://greenmangaming.sjv.io/xLRVNR");
+    rFunc(rCollabs, "collabs.html");
 });

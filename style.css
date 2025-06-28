@@ -172,9 +172,16 @@ body {
 
 .gmg-games {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 2%;
     flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+.gmg-games a img {
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
 }
 
 .gmg-deals {
