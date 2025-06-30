@@ -12,11 +12,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
     function rFunc(varhere, locationhere){
-        varhere.addEventListener("click", function(){
-            window.location.href = locationhere;
-        })
+        if (varhere) {
+            varhere.addEventListener("click", function(){
+                window.location.href = locationhere;
+            });
+        }
     }
-    
+
     // Load Scripts
 
     loadScript('https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.js');
