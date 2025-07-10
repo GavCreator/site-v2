@@ -2,7 +2,7 @@ class promoteBanner extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <div class="gmg-deals">
-          <a class="link-img" href="https://greenmangaming.sjv.io/c/6319715/3074726/15105"><img src="res/gmg/sundeal.png"></a>
+          <a class="link-img" href="https://greenmangaming.sjv.io/c/6319715/1279942/15105"><img src="res/gmg/saveonpcgames.png"></a>
         </div>
       `;
     }
