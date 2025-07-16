@@ -170,21 +170,29 @@ body {
     width: 20%;
 }
 
-.gmg-games {
+.collab-games {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* center content horizontally */
+    align-items: center;     /* center content vertically */
     margin-top: 2%;
     flex-wrap: wrap;
     overflow-x: auto;
+    gap: 1rem; /* optional: adds spacing between items */
 }
 
-.gmg-games a img {
+.collab-games a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collab-games a img {
     height: auto;
     max-height: 150px;
     object-fit: contain;
 }
 
-.gmg-deals {
+.collab-deals {
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
