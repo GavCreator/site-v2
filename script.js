@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const rCollabs = getId("collabs");
 
     // OnClick Redirects
-
+    /*
     if (getId("toBenefits")) {
         const rBenefits = getId("toBenefits");
         rFunc(rBenefits, "benefits.html");
@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         rFunc(rMerch, "https://simplygav.myspreadshop.com");
     }
 
+    
     rFunc(rHome, "index.html");
     rFunc(rYT, "https://gvnx.is-a-good.dev/yt-main");
     rFunc(rTTV, "https://gvnx.is-a-good.dev/twitch");
@@ -89,4 +90,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
     rFunc(rMerch, "https://simplygav.myspreadshop.com/");
     // rFunc(rGMG, "https://greenmangaming.sjv.io/xLRVNR");
     rFunc(rCollabs, "collabs.html");
+    */
 });
