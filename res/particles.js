@@ -1,4 +1,14 @@
-/* -----------------------------------------------
+const Pjs = localStorage.getItem("Pjs");
+
+// Only run if it's ON, missing, or invalid
+if (Pjs !== "OFF") {
+    // If value is missing or invalid, set to ON
+    if (Pjs !== "ON") {
+        localStorage.setItem("Pjs", "ON");
+    }
+
+    // Script Below
+    /* -----------------------------------------------
 /* Author : Vincent Garreau  - vincentgarreau.com
 /* MIT license: http://opensource.org/licenses/MIT
 /* Demo / Generator : vincentgarreau.com/particles.js
@@ -1539,3 +1549,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
   xhr.send();
 
 };
+// Script Above
+}
+
+

@@ -130,6 +130,10 @@ body {
     color: inherit;
 }
 
+.s3cM {
+    margin: 1%;
+}
+
 .givepointer:hover {
     cursor: pointer;
 }

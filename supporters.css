@@ -1,0 +1,130 @@
+:root {
+    --NM1: #1A1A1A;
+    --NM2: #242424;
+    --NM3: #2E2E2E;
+    --NM4: #383838;
+    --NM5: #444444;
+    --NM6: #5C5C5C;
+    --NM7: #787878;
+    --F-Onest: 'Onest';
+    --F-Rubik: 'Rubik';
+    --F-Ubuntu: 'Ubuntu';
+    --F-UbuntuTitlingBold: 'Ubuntu Titling Bold';
+    --F-OnelySans: 'OnelySans';
+}
+
+* {
+    user-select: none;
+    cursor: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--NM1);
+    color: white;
+    font-family: var(--F-Ubuntu);
+}
+
+/* Containers */
+
+.container {
+    display: block;
+    width: calc(100% - 1vw);
+    margin: 1vw;
+    padding: 0.5%;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo #logo {
+    height: 25vh;
+    width: 25vh;
+}
+
+/* Lists */
+
+.lists {
+    display: flex;
+    margin-top: 1.75%;
+    margin-bottom: 9%;
+    justify-content: space-around;
+}
+
+.lists .list {
+    flex: 1;
+    padding: 1vh 2vw;
+    text-align: center;
+}
+
+.lists .list .heading {
+    font-weight: bold;
+    font-family: var(--F-UbuntuTitlingBold);
+    font-size: 2.75em;
+    margin-bottom: 1vh;
+}
+
+.lists .list .supporter {
+    font-size: 3em;
+}
+
+.inline-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    object-fit: contain;
+    margin-left: 0.2em;
+    display: inline-block;
+}
+
+/* Pages */
+
+.pages {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.pages > div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pages > div img {
+  width: 24px;
+  height: auto;
+  display: block;
+}
+
+.pages > div p {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+
+/* message */
+
+.message {
+    display: block;
+    margin-top: 1%;    
+}
+
+.message #thankyou {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.message #notice {
+    text-align: center;
+    font-size: 1.5em;
+}

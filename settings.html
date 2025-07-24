@@ -35,6 +35,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="settings.css">
     <link rel="stylesheet" href="https://cdn.statically.io/gh/GsLibrary/Library/main/Fonts.css">
 
     <!-- Theme Colors -->
@@ -43,29 +44,39 @@
 </head>
 
 <body>
-    <!-- Verifying For Green Man Gaming -->
-      <meta name='impact-site-verification' value='443d6b01-145e-4f5c-8325-3bfa69181772'>
-    
     <div class="container">
         <nav-panel></nav-panel>
-        <div class="subcontainer">
+        <div class="scontainer">
 
-            <!-- <a class="title title-bmc">Welcome to the Official <span class="boldtxt">SimplyGav</span> Website!</a> -->
-            <a class="title title-bmc">There is a new supporters tab, new videos on Patreon, and I've removed all Google Ad related content from the site for the time being, as I didn't have a use for it and probably won't for a bit. I also added the option to hide the Affiliate Ads from the site.</a>
+          <div class="option">
+            <div class="text">
+              <p class="label">Google Advertisements</p>
+              <p class="desc">At the moment, this site is free of Google Advertisements. However, incase I decide to ad them back, this will determine if you see them or not.</p>
+            </div>
+            <button id="GAds" v="nul">NUL</button>
+          </div>
 
-            <!-- <div class="sub2container"> -->
-                <!-- Updates Go Here -->
-            <!-- </div> -->
+          <div class="option">
+            <div class="text">
+              <p class="label">Affiliate Advertisements</p>
+              <p class="desc">This will enable/disable the ads that show usually below the pages content for game related content provided by my affiliates.</p>
+            </div>
+            <button id="AAds" v="nul">NUL</button>
+          </div>
+
+          <div class="option">
+            <div class="text">
+              <p class="label">Animated Background</p>
+              <p class="desc">This site has a animated background on the pages, if you do not want to see this, you can turn them off here.</p>
+            </div>
+            <button id="Pjs" v="nul">NUL</button>
+          </div>
+
         </div>
-
-        <promo-banner></promo-banner>
-
-        <div id="particles-js"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="settings.js"></script>
     <script src="navigationPanel.js" defer></script>
-    <script src="promoteBanner.js" defer></script>
     <script src="res/particles.js"></script>
 </body>
 

@@ -3,7 +3,7 @@
 <head>
     <!-- Primary Meta Tags -->
     <meta charset="UTF-8">
-    <title>More - Gav's Website</title>
+    <title>Supporters - Gav's Website</title>
     <meta name="title" content="Gav's Website" />
     <meta name="description" content="Gav's Official Website" />
     <meta name="keywords" content="GvNx, SimplyGav, Gaming, Streamer, YouTube, Twitch, Discord, Gamer, Tester, Minecraft, Ready or Not, Patreon">
@@ -34,7 +34,7 @@
     <!-- <link rel="manifest" href="res/site/site.webmanifest"> -->
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="supporters.css">
     <link rel="stylesheet" href="https://cdn.statically.io/gh/GsLibrary/Library/main/Fonts.css">
 
     <!-- Theme Colors -->
@@ -44,42 +44,56 @@
 
 <body>
     <div class="container">
-        <nav-panel></nav-panel>
-
-        <div class="subcontainer">
-            <a class="title title-bmc">Additional Resources</a>
-
-            <div class="sub2container noBgC">
-                <!-- <div class="sub3container">
-                    <a class="title3 makeBlock">Rules</a>
-                    <a class="addLMargin">View the most accurate rules for all my platforms such as Discord, Patreon,
-                        YouTube, Twitch, and more!</a>
-                    <button class="rBtn rBtn-X" id="toRules">Visit Page</button>
-                </div>
-                <div class="sub3container">
-                    <a class="title3 makeBlock">Benefits</a>
-                    <a class="addLMargin">View the most accurate benefits for all my platforms such as Discord, Patreon,
-                        YouTube, Twitch, and more!</a>
-                    <button class="rBtn rBtn-X" id="toBenefits">Visit Page</button>
-                </div>
-                 -->
-                <div class="sub3container">
-                    <a class="title3 makeBlock">Settings</a>
-                    <a class="s3cM">Change how you see the site!</a>
-                    <a target="_blank" href="settings.html"><button class="rBtn rBtn-X" id="toBenefits">Visit Page</button></a>
-                </div>
-            </div>
+        <div class="logo">
+          <img id="logo" src="res/supporters/logo.png">
         </div>
 
-        <promo-banner></promo-banner>
+        <div class="pages">
+          <div class="youtube">
+            <img src="res/supporters/p/youtube.svg">
+            <p class="link">/ @GvNx</p>
+          </div>
+          <div class="twitch">
+            <img src="res/supporters/p/twitch.svg">
+            <p class="link">/ SimplyGav</p> 
+          </div>
+          <div class="patreon">
+            <img src="res/supporters/p/patreon.svg">
+            <p class="link">/ GvNx</p>
+          </div>
+          <div class="discord">
+            <img src="res/supporters/p/discord.svg">
+            <p class="link">/ qNVJeAyFPv or dsc.gg/simplygav</p>
+          </div>
+        </div>
 
-        <div id="particles-js"></div>
+        <div class="lists">
+          <div class="l1 list">
+            <p class="heading">Level 1</p>
+
+          </div>
+          
+          <div class="l2 list">
+            <p class="heading">Level 2</p>
+          </div>
+
+          <div class="l3 list">
+            <p class="heading">Level 3</p>
+
+            <p class="supporter" style="font-weight: bold; color: #eff9fe;">Molang 
+              <icon type="booster"></icon>
+              <icon type="p2"></icon>
+              <icon type="prime"></icon>
+            </p>
+          </div>
+        </div>
+        
+        <div class="message">
+          <h1 id="thankyou">A special thank you to all my supporters. You mean the world to me.</h1>
+          <h1 id="notice">This list is updated manually. If your name is missing or something doesn’t look right, please let me know!</h1>
+        </div>
     </div>
 
-    <script src="script.js"></script>
-    <script src="navigationPanel.js" defer></script>
-    <script src="promoteBanner.js" defer></script>
-    <script src="res/particles.js"></script>
+    <script src="supporters.js"></script>
 </body>
-
 </html>
