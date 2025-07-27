@@ -46,6 +46,12 @@
     font-size: 1.25em;
     outline: none;
     border: 0px;
+    transition: 0.2s ease-out;
+}
+
+.option button:hover {
+    background-color: var(--NM5);
+    transition: 0.2s ease-in;
 }
 
 /* Support For Mobile Users, Provided Entirely By ChatGPT */
