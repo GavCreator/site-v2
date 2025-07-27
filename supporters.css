@@ -128,3 +128,77 @@ body {
     text-align: center;
     font-size: 1.5em;
 }
+
+
+/* Support For Mobile Users, Provided Entirely By ChatGPT */
+@media (max-width: 768px) {
+    .logo {
+        flex-direction: column;
+        padding: 4vw;
+    }
+
+    .logo #logo {
+        width: 60vw;
+        height: 60vw;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .lists {
+        flex-direction: column;
+        align-items: center;
+        gap: 4vh;
+        margin-top: 4vh;
+        margin-bottom: 6vh;
+    }
+
+    .lists .list {
+        width: 90%;
+        padding: 2vh 4vw;
+    }
+
+    .lists .list .heading {
+        font-size: 1.75em;
+        margin-bottom: 0.5vh;
+    }
+
+    .lists .list .supporter {
+        font-size: 2.25em;
+    }
+
+    .pages {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 2vh 4vw;
+        gap: 16px;
+        justify-content: flex-start;
+    }
+
+    .pages > div {
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        gap: 6px;
+    }
+
+    .pages > div img {
+        width: 20px;
+    }
+
+    .pages > div p {
+        font-size: 1.25em;
+    }
+
+    .message {
+        margin-top: 4vh;
+        padding: 0 5vw;
+    }
+
+    .message #thankyou {
+        font-size: 2.25em;
+    }
+
+    .message #notice {
+        font-size: 1.15em;
+    }
+}

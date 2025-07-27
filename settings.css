@@ -47,3 +47,44 @@
     outline: none;
     border: 0px;
 }
+
+/* Support For Mobile Users, Provided Entirely By ChatGPT */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 2%;
+    }
+
+    .scontainer {
+        padding: 4% 3%;
+        margin: 3% 2%;
+        border-radius: 8px;
+    }
+
+    .option {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .option .text {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .option .label {
+        font-size: 1.75em;
+    }
+
+    .option .desc {
+        font-size: 1em;
+        margin-top: 0.5em;
+    }
+
+    .option button {
+        font-size: 1.15em;
+        padding: 0.75em 1.5em;
+        align-self: center;
+    }
+}
