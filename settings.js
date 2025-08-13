@@ -40,12 +40,12 @@ function setupToggleButton(button, key) {
 /* Variables */
 const GooAdsB = getId('GooAds');
 const AAdsB = getId('AAds');
-const PjsB = getId('Pjs');
+const P_jsB = getId('P_js');
 
 /* Setup Toggle Buttons */
 setupToggleButton(GooAdsB, "GooAds");
 setupToggleButton(AAdsB, "AAds");
-setupToggleButton(PjsB, "Pjs");
+setupToggleButton(P_jsB, "P_js");
 
 })
 

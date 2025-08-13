@@ -1,10 +1,10 @@
-const Pjs = localStorage.getItem("Pjs");
+const P_js = localStorage.getItem("P_js");
 
 // Only run if it's ON, missing, or invalid
-if (Pjs !== "OFF") {
+if (P_js !== "OFF") {
     // If value is missing or invalid, set to ON
-    if (Pjs !== "ON") {
-        localStorage.setItem("Pjs", "ON");
+    if (P_js !== "ON") {
+        localStorage.setItem("P_js", "ON");
     }
 
     // Script Below
